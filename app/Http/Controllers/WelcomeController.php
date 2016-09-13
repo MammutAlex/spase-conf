@@ -36,7 +36,7 @@ class WelcomeController extends Controller
 
     public function archive()
     {
-        $archives=Archive::get();
+        $archives=Archive::orderBy('place')->get();
 
         return view('public.archive', ['archives'=>$archives]);
     }

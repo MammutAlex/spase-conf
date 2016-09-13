@@ -25,11 +25,11 @@
                     ];
                 })->addColumn(function () {
                     return [
-                        AdminFormElement::ckeditor('text_uk', 'Text Uk'),
+                        AdminFormElement::ckeditor('text_en', 'Text En'),
                     ];
                 })->addColumn(function () {
                     return [
-                        AdminFormElement::ckeditor('text_uk', 'Text Uk'),
+                        AdminFormElement::ckeditor('text_ru', 'Text Ru'),
                     ];
                 })
             );

@@ -8,6 +8,7 @@
         // Display
         $model->onDisplay(function () {
             return AdminDisplay::table()->setColumns([
+                AdminColumn::text('place')->setLabel('Порядок'),
                 AdminColumn::link('title_uk')->setLabel('Заголовок'),
                 AdminColumn::image('photo_thesis')->setLabel('Тези'),
             ])->paginate(15);
@@ -17,6 +18,7 @@
         $model->onCreateAndEdit(function () {
             $form = AdminForm::panel();
             $form->setItems(
+                AdminFormElement::text('place', 'Порядок відображення'),
                 AdminFormElement::columns()->addColumn(function () {
                     return [
                         AdminFormElement::text('title_uk', 'Заголовок UK'),
