@@ -27,7 +27,7 @@
                         <br>
                         <p class="text-right"><a class="btn btn-primary btn-lg btn-block"
                                                  @if($archive->img ==null)disabled="disabled" @endif
-                                                 href="{{$archive->img}}" download>{{trans('conference.photo')}}</a></p>
+                                                 href="{{$archive->img}}" @if(!preg_match('/http.*/', $archive->img)) download @endif>{{trans('conference.photo')}}</a></p>
                     </div>
                 </div>
 
