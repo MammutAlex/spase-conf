@@ -46,7 +46,7 @@
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle lead" data-toggle="dropdown"> <b
-                                class="caret"></b> {{trans('index.16')}}</a>
+                                class="caret"></b> {{trans('index.17')}}</a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="/conference/info">{{trans('master.info')}}</a>
