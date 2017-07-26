@@ -5,6 +5,6 @@ Homestead.yaml
 Homestead.json
 .env
 .idea
-public/images
-public/photo
+public/images/uploads/*
+public/photo/*
 db.sql
