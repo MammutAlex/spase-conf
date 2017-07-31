@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/chosen.css">
-    <meta name="google-site-verification" content="6BTceHoPVXGNUzhZNwM0K4WpvinJIr6xMNGwAfvwVG4" />
+    <meta name="google-site-verification" content="6BTceHoPVXGNUzhZNwM0K4WpvinJIr6xMNGwAfvwVG4"/>
 </head>
 <body>
 <nav class="navbar navbar-inverse headroom  @if(isset($page)) navbar-fixed-top @endif">
@@ -32,9 +32,9 @@
                 <li>
                     <div class="navbar-header">
                         @if(!isset($page))
-                        <a class="navbar-brand" href="/">
-                            <img src="/assets/images/logo.png" alt="">
-                        </a>
+                            <a class="navbar-brand" href="/">
+                                <img src="/assets/images/logo.png" alt="">
+                            </a>
                         @endif
                     </div>
                 </li>
@@ -94,9 +94,9 @@
             </ul>
             @if(!Sentinel::guest())
                 @if(Sentinel::inRole('user'))
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="logout">{{trans('master.logout')}}</a></li>
-                </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="logout">{{trans('master.logout')}}</a></li>
+                    </ul>
                 @endif
             @endif
         </div>
@@ -157,11 +157,15 @@
 <script src="/assets/js/headroom.min.js"></script>
 <script src="/assets/js/jQuery.headroom.min.js"></script>
 <script src="/assets/js/template.js"></script>
+<script src="/assets/js/is.mobile.js"></script>
 <script src="/assets/js/script.js"></script>
 <script>
-    if (document.readyState === "complete") {
-    if ($(document).height() <= $(window).height())
-        $("footer#footer").addClass("navbar-fixed-bottom");
+    document.onreadystatechange = function () {
+        if (document.readyState === "complete") {
+            console.log('hello');
+            if ($(document).height() <= $(window).height())
+                $("footer#footer").addClass("navbar-fixed-bottom");
+        }
     }
 </script>
 </body>
