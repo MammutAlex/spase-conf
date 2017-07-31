@@ -125,11 +125,15 @@
                     <h3 class="widget-title">{{trans('master.pages')}}</h3>
                     <div class="widget-body">
                         <p class="follow-me-icons">
-                            <a href="https://twitter.com/space_conf" target="_blank"><i class="fa fa-twitter fa-2"></i></a>
-                            <a href="https://github.com/MammutCris/space-conf" target="_blank"><i
-                                        class="fa fa-github fa-2"></i></a>
-                            <a href="https://www.facebook.com/ukrainianspaceconf" target="_blank"><i
-                                        class="fa fa-facebook fa-2"></i></a>
+                            <a href="https://twitter.com/space_conf" target="_blank">
+                                <i class="fa fa-twitter fa-2"></i>
+                            </a>
+                            <a href="https://github.com/MammutAlex/spase-conf" target="_blank">
+                                <i class="fa fa-github fa-2"></i>
+                            </a>
+                            <a href="https://www.facebook.com/ukrainianspaceconf" target="_blank">
+                                <i class="fa fa-facebook fa-2"></i>
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -143,7 +147,7 @@
                 <div class="col-md-12 widget">
                     <div class="widget-body">
                         <p class="text-center">
-                            Copyright &copy; 2016 Developed in Space Research Institute NASU-SSAU
+                            Copyright &copy; 2017 Developed in Space Research Institute NASU-SSAU
                         </p>
                     </div>
                 </div>
