@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="{{App::getLocale()}}">
 <head>
     <meta charset="utf-8">
     <title> {{trans('index.title')}}- @yield('title')</title>
@@ -85,7 +85,9 @@
                         @foreach (Config::get('languages') as $lang => $language)
                             @if ($lang != App::getLocale())
                                 <li>
-                                    <a href="{{ route('lang.switch', $lang) }}">{{$language}}</a>
+                                    <a rel="alternate" hreflang="{{$lang}}" href="{{ route('lang.switch', $lang) }}">
+                                        {{$language}}
+                                    </a>
                                 </li>
                             @endif
                         @endforeach
