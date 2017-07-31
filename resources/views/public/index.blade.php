@@ -37,9 +37,6 @@
     <div class="jumbotron top-space">
         <div class="jumbotron2">
             <div class="container">
-                <ol class="breadcrumb">
-                    <li class="active">{{trans('index.main')}}</li>
-                </ol>
                 <h2 class="text-center thin">{{$text->TextTrans('heading')}}</h2>
                 <div class="row">
                     @foreach($categoryes as $key=>$category)

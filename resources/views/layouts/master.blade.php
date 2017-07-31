@@ -112,18 +112,19 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-3 widget">
+                <div class="col-md-4 col-md-offset-2 widget">
                     <h3 class="widget-title">{{trans('master.contacts')}}</h3>
                     <div class="widget-body">
                         {{trans('master.admin')}}
-                        <p> +38 (044) 5261583<br>
-                            +38 (063) 4518270<br>
+                        <p>
+                            <a href="tel:+380445261583">+38 (044) 526-15-83</a><br>
+                            <a href="tel:+380634518270">+38 (063) 451-82-70</a><br>
                             <a href="mailto:ukrainianspaceconf@gmail.com">ukrainianspaceconf@gmail.com</a>
                         </p>
                     </div>
                 </div>
 
-                <div class="col-md-3 widget">
+                <div class="col-md-4 col-md-offset-2 widget">
                     <h3 class="widget-title">{{trans('master.pages')}}</h3>
                     <div class="widget-body">
                         <p class="follow-me-icons">
