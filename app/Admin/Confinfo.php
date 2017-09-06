@@ -8,8 +8,8 @@
         // Display
         $model->onDisplay(function () {
             return AdminDisplay::table()->setColumns([
-                AdminColumn::text('place')->setLabel('Порядок'),
-                AdminColumn::link('text_uk')->setLabel('Текст'),
+                AdminColumn::text('place')->setLabel('Порядок')->setWidth('100px'),
+                AdminColumn::link('text_uk')->setLabel('Текст')->setWidth('400px'),
             ])->paginate(15);
         });
 
