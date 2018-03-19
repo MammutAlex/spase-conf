@@ -150,7 +150,7 @@
                 <div class="col-md-12 widget">
                     <div class="widget-body">
                         <p class="text-center">
-                            Copyright &copy; 2018 Developed in Space Research Institute NASU-SSAU
+                            &copy; Copyright 2018. All Right Reserved. By <a href="https://alex-kovalchuk.site" target="_blank">mammut</a>
                         </p>
                     </div>
                 </div>
