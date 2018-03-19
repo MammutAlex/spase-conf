@@ -46,7 +46,7 @@
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle lead" data-toggle="dropdown"> <b
-                                class="caret"></b> {{trans('index.17')}}</a>
+                                class="caret"></b> {{trans('index.18')}}</a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="/conference/info">{{trans('master.info')}}</a>
@@ -150,7 +150,7 @@
                 <div class="col-md-12 widget">
                     <div class="widget-body">
                         <p class="text-center">
-                            Copyright &copy; 2017 Developed in Space Research Institute NASU-SSAU
+                            Copyright &copy; 2018 Developed in Space Research Institute NASU-SSAU
                         </p>
                     </div>
                 </div>
