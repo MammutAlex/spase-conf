@@ -14,7 +14,7 @@ return [
     'login'       => 'Sign in',
     'home'        => 'My profile',
     'contacts'    => 'Contact us',
-    'admin'       => 'Skorokhod Tetiana',
+    'admin'       => 'Vlasov Dmytro',
     'pages'       => 'Our pages',
     'logout'      => 'Logout',
     'admin_panel' => 'Admin Panel',

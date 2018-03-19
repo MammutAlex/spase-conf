@@ -118,7 +118,7 @@
                         {{trans('master.admin')}}
                         <p>
                             <a href="tel:+380445261583">+38 (044) 526-15-83</a><br>
-                            <a href="tel:+380634518270">+38 (063) 451-82-70</a><br>
+                            <a href="tel:+380502387882">+38 (050) 238-78-82</a><br>
                             <a href="mailto:ukrainianspaceconf@gmail.com">ukrainianspaceconf@gmail.com</a>
                         </p>
                     </div>
