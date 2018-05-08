@@ -10,5 +10,5 @@ return[
     'register' => 'Registration',
     'main' => 'Main',
     'archive' => 'Archive',
-    '18'=>'18 Conference',
+    '18'=>'Space forum',
 ];
