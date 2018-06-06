@@ -78,7 +78,7 @@
 			}
 			$user = Sentinel::check();
 			$user = User::where('id', '=', $user->id)->first();
-			$categoryes = Сategory::get();
+			$categoryes = Сategory::orderBy('place')->get();
 			$organizations = Spaceorganization::get();
 
 			return view('user.conf', ['categoryes' => $categoryes, 'user' => $user, 'organizations' => $organizations]);
