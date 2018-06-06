@@ -27,13 +27,13 @@
                     ];
                 })->addColumn(function () {
                     return [
-                        AdminFormElement::text('title_uk', 'Title Uk'),
-                        AdminFormElement::textarea('text_uk', 'Text Uk'),
+                        AdminFormElement::text('title_ru', 'Title Ru'),
+                        AdminFormElement::textarea('text_ru', 'Text Ru'),
                     ];
                 })->addColumn(function () {
                     return [
-                        AdminFormElement::text('title_uk', 'Title Uk'),
-                        AdminFormElement::textarea('text_uk', 'Text Uk'),
+                        AdminFormElement::text('title_en', 'Title En'),
+                        AdminFormElement::textarea('text_en', 'Text En'),
                     ];
                 })
             );
