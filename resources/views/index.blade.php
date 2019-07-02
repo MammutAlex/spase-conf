@@ -38,11 +38,12 @@
         </h2>
     </div>
     <div id="redCountdown" class="redCountdown"></div>
-    <nav class="stage-nav" id="stage-nav">
+    <nav class="stage-nav">
         <ul>
             <li><a class="nice-link" href="https://alex-kovalchuk.pro/" target="_blank">
                     <div class="hover"><span></span><span></span><span></span><span></span></div>
-                    <span>© mammut</span></a>
+                    <span>© mammut</span>
+                </a>
             </li>
         </ul>
     </nav>
